@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background: #0f1d22;
+    color: #fff;
+}
+
+.cmn-btn-one{
+    @apply  py-3 px-5 rounded border border-orange-500 text-white font-bold bg-[#0b1315] hover:bg-orange-500
+}
