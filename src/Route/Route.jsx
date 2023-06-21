@@ -7,6 +7,7 @@ import Chef from "../Components/Chef/Chef";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
 import ErrorPage from "../Components/ErrorPage/ErrorPage";
 import FavRecipe from "../Components/FavRecipe/FavRecipe";
+import CookingTips from "../Components/CookingTips/CookingTips";
 
 export const router = createBrowserRouter([
     {
@@ -31,8 +32,12 @@ export const router = createBrowserRouter([
                 element: <PrivateRoute><Chef></Chef></PrivateRoute>
             },
             {
-                path: 'my-recipe',
+                path: '/my-recipe',
                 element: <FavRecipe></FavRecipe>,
+            },
+            {
+                path: '/cooking-tips',
+                element: <CookingTips></CookingTips>,
             }
         ]
     }

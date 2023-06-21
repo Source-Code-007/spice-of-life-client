@@ -5,6 +5,7 @@ import Chefs from './Chefs/Chefs';
 import RecentNews from './RecentNews/RecentNews';
 import RecipesByCategory from './RecipesByCategory/RecipesByCategory';
 import RecommendedToTry from './RecommendedToTry/RecommendedToTry';
+import CouterUp from './CouterUp/CouterUp';
 
 const Homepage = () => {
     return (
@@ -13,6 +14,7 @@ const Homepage = () => {
             <WhoWeAre></WhoWeAre>
             <Chefs></Chefs>
             <RecipesByCategory></RecipesByCategory>
+            <CouterUp></CouterUp>
             <RecentNews></RecentNews>
             <RecommendedToTry></RecommendedToTry>
         </>

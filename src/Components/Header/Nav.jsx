@@ -19,6 +19,14 @@ const Nav = () => {
         })
     }
 
+    const menu = <>
+        <li className='p-3'><ActiveLink path={'/'}>Home</ActiveLink></li>
+        <li className='p-3'><ActiveLink path={'/services'}>Services</ActiveLink></li>
+        <li className='p-3'><ActiveLink path={'/blog'}>Blog</ActiveLink></li>
+        <li className='p-3'><ActiveLink path={'/my-recipe'}>My Recipe</ActiveLink></li>
+        <li className='p-3'><ActiveLink path={'/cooking-tips'}>Cooking tips</ActiveLink></li>
+    </>
+
     return (
         <nav style={{ background: '#0b1315' }} className="navbar justify-between text-white absolute top-0 left-0 py-2 z-50">
             <Link to={'/'}><img className='h-16 w-16' src={logo} alt="" /></Link>
@@ -30,19 +38,13 @@ const Nav = () => {
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
                     <ul tabIndex={0} className="menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52" style={{ background: '#0f1d22' }}>
-                        <li className='p-3'><ActiveLink path={'/'}>Home</ActiveLink></li>
-                        <li className='p-3'><ActiveLink path={'/services'}>Services</ActiveLink></li>
-                        <li className='p-3'><ActiveLink path={'/blog'}>Blog</ActiveLink></li>
-                        <li className='p-3'><ActiveLink path={'/my-recipe'}>My Recipe</ActiveLink></li>
+                        {menu}
                     </ul>
                 </div>
                 {/* for desktop menu */}
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu-horizontal px-1">
-                        <li className='p-3'><ActiveLink path={'/'}>Home</ActiveLink></li>
-                        <li className='p-3'><ActiveLink path={'/services'}>Services</ActiveLink></li>
-                        <li className='p-3'><ActiveLink path={'/blog'}>Blog</ActiveLink></li>
-                        <li className='p-3'><ActiveLink path={'/my-recipe'}>My Recipe</ActiveLink></li>
+                        {menu}
                     </ul>
                 </div>
             </div>
