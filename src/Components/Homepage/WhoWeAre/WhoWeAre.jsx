@@ -39,7 +39,7 @@ const WhoWeAre = () => {
                     {
                         whoWeAreData.map((data, ind) => {
                             return <div key={ind} className='space-y-4 group overflow-hidden rounded-lg shadow-inner shadow-slate-500'>
-                                <figure>
+                                <figure className='h-72 overflow-hidden'>
                                         <img className='rounded-t-lg h-full w-full group-hover:scale-110 transition duration-500' src={data.photo} alt="" />
                                 </figure>
                                 <div className='p-5 space-y-3'>
