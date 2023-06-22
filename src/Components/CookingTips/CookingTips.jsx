@@ -38,7 +38,7 @@ const CookingTips = () => {
                             return <div key={ind} className="my-28 shadow shadow-[#0b1315] rounded" id={recipe_name}>
                                 <img src={recipe_img} alt={recipe_name} className="w-full h-[300px] lg:h-[500px]" />
 
-                                <div className="p-10 rounded-t">
+                                <div className="p-10 rounded-t bg-[#0b131574]">
                                     <h2 className="my-title ">{ind + 1}. {recipe_name}</h2>
                                     <div className="grid grid-cols-1 lg:grid-cols-2 my-5 gap-5">
                                         <div>

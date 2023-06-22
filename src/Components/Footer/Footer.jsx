@@ -1,14 +1,17 @@
-import React from 'react';
+
 import footerBg from '../../assets/img/footerBg.jpg'
 import { Link } from 'react-router-dom';
-import { FaFacebookF, FaGithub, FaTwitter} from "react-icons/fa";
+import { FaFacebookF, FaGithub, FaTwitter } from "react-icons/fa";
 import footerTwo from '../../assets/img/footer-two.svg'
 
-const Footer = () => {
-    return (
-        <footer className='bg-center bg-cover bg-fixed border-t border-slate-700' style={{backgroundImage: `url(${footerTwo})` }}>
 
-            <div className='grid grid-cols-1 lg:grid-cols-12 max-w-7xl mx-10 xl:mx-auto py-24 text-white'>
+const Footer = () => {
+
+
+    return (
+        <footer className='bg-center bg-cover bg-fixed border-t border-slate-700' style={{ backgroundImage: `url(${footerTwo})` }}>
+
+            <div className='grid grid-cols-1 lg:grid-cols-12  my-container py-24 text-white'>
                 <div className='flex justify-between col-span-3'>
                     <ul className='space-y-3'>
                         <span className="footer-title">Recipes</span>
@@ -55,6 +58,7 @@ const Footer = () => {
             <div className='text-center border-t border-t-slate-800 text-slate-300'>
                 <p className='py-6 font-bold'>Copyright © 2023 - All right reserved by Spice of Life</p>
             </div>
+
         </footer>
     );
 };

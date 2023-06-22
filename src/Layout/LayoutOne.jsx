@@ -3,6 +3,7 @@ import Nav from '../Components/Header/Nav';
 import { Outlet } from 'react-router-dom';
 import Footer from '../Components/Footer/Footer';
 import ScrollToTop from '../Components/HelpingCompo/ScrollToTop';
+import ToTop from '../HelpingCompo/ToTop';
 
 const LayoutOne = () => {
     return (
@@ -11,6 +12,7 @@ const LayoutOne = () => {
                 <Nav></Nav>
                 <Outlet></Outlet>
                 <Footer></Footer>
+                <ToTop></ToTop>
             </ScrollToTop>
         </>
     );
