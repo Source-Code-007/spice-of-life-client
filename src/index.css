@@ -11,9 +11,14 @@ body{
 .my-container{
     @apply max-w-7xl mx-6 lg:mx-10 xl:mx-auto
 }
+
 .my-title{
     @apply font-bold text-2xl lg:text-3xl
 }
+.my-title-two{
+    @apply font-semibold text-lg lg:text-xl
+}
+
 .my-para{
     @apply text-slate-300 leading-loose
 }
