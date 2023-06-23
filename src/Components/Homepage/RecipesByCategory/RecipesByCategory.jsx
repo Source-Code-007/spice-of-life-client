@@ -18,7 +18,6 @@ const RecipesByCategory = () => {
     }, [activeCategory])
 
     const tabs = ['West Indian Cuisine', 'North Indian Cuisine', 'Punjabi Cuisine', 'Gujarati Cuisine']
-
     
     return (
         <div className='max-w-7xl mx-auto py-16 px-10 xl:px-0'>
