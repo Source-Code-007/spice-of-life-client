@@ -14,7 +14,6 @@ const Chefs = () => {
             .then(data => {setChefsData(data); setIsLoading(false)})
     }, [])
 
-    
     return (
         <section className='py-20 text-white'>
             <div className='max-w-7xl mx-10 xl:mx-auto'>
