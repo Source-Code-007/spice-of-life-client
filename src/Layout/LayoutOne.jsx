@@ -1,9 +1,9 @@
-import React from 'react';
 import Nav from '../Components/Header/Nav';
 import { Outlet } from 'react-router-dom';
 import Footer from '../Components/Footer/Footer';
 import ScrollToTop from '../Components/HelpingCompo/ScrollToTop';
 import ToTop from '../HelpingCompo/ToTop';
+
 
 const LayoutOne = () => {
     return (
