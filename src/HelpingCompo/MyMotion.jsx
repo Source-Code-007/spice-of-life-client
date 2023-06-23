@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { motion } from "framer-motion"
 
+
 const MyMotion = ({ children, x, y, delay, stiffness }) => {
     return (
         <motion.div
