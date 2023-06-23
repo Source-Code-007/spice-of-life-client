@@ -1,4 +1,3 @@
-import React from 'react';
 import Banner from './Banner/Banner';
 import WhoWeAre from './WhoWeAre/WhoWeAre';
 import Chefs from './Chefs/Chefs';
@@ -7,7 +6,9 @@ import RecipesByCategory from './RecipesByCategory/RecipesByCategory';
 import RecommendedToTry from './RecommendedToTry/RecommendedToTry';
 import CouterUp from './CouterUp/CouterUp';
 
+
 const Homepage = () => {
+    
     return (
         <>
             <Banner></Banner>   

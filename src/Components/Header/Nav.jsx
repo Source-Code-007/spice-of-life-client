@@ -21,10 +21,9 @@ const Nav = () => {
 
     const menu = <>
         <li className='p-3'><ActiveLink path={'/'}>Home</ActiveLink></li>
-        <li className='p-3'><ActiveLink path={'/services'}>Services</ActiveLink></li>
         <li className='p-3'><ActiveLink path={'/blog'}>Blog</ActiveLink></li>
         <li className='p-3'><ActiveLink path={'/my-recipe'}>My Recipe</ActiveLink></li>
-        <li className='p-3'><ActiveLink path={'/cooking-tips'}>Cooking tips</ActiveLink></li>
+        <li className='p-3'><ActiveLink path={'/cooking-tips'}>Cooking Tips</ActiveLink></li>
     </>
 
     return (
