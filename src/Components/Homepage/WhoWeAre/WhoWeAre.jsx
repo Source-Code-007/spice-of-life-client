@@ -24,6 +24,7 @@ const WhoWeAre = () => {
         },
     ]
     
+    
     return (
 
         <div className='text-white'>
