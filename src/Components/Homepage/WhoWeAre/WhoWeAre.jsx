@@ -6,7 +6,6 @@ import whoWeAreImgThree from '../../../assets/img/whowearethree.jpg'
 
 const WhoWeAre = () => {
 
-
     const whoWeAreData = [
         {
             photo: whoWeAreImgOne,
