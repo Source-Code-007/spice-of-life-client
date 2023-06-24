@@ -6,7 +6,7 @@ import whoWeAreImgThree from '../../../assets/img/whowearethree.jpg'
 
 const WhoWeAre = () => {
 
-    
+
     const whoWeAreData = [
         {
             photo: whoWeAreImgOne,
@@ -24,6 +24,7 @@ const WhoWeAre = () => {
             description: "We believe that the best dishes start with fresh, high-quality ingredients. That's why our recipes feature the freshest spices, produce, and meats, resulting in bold and unforgettable flavors."
         },
     ]
+    
     
     return (
 
